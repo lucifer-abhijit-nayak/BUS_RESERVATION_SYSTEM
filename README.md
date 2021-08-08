@@ -7,6 +7,6 @@ It is a C++ language code.
 I did the project for MyCaptain C++ course.
 
 
-The program is well checked for any edge situation. It can be runned in any C++(g++ 5.4.0) or C++14(g++ 5.4.0) compiler.
+The program is well checked for any edge situation. It can be runned in C++14(g++ 5.4.0) compiler.
 
 ...HAPPY CODING...
