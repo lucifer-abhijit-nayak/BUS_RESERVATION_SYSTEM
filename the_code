@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+#include<string>
+#include<stdio.h>
  using namespace std;
 
 int p=0;
@@ -326,12 +328,22 @@ void BUS::avail()
 
 }
 
+bool isNumber(string z)
+{
+	for(int i=0;i<z.length();i++)
+	{
+	 if(isdigit(z[i])==false)
+	    return false;
+	  else return true;
+    }
+}
+
 int main()
 
 {
 
 
-  int z;
+  string z;
    cout<<"\t\t\t\t***LIFE ON A HIGHWAY***"<<'\n'<<'\n';
   vline('|');
   cout<<'\n';
@@ -357,7 +369,14 @@ int main()
 
   cin>>z;
 
-  switch(z)
+  if(isNumber(z) == false )
+    {
+    	cout<<endl<<"\t Enter a number"<<endl;
+    	continue;
+	}
+
+  int z1=stoi(z);
+  switch(z1)
 
   {
 
